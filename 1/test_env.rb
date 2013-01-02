@@ -2,7 +2,7 @@ require 'rubygems' rescue puts 'need install rubygems'
 require 'watir-webdriver' rescue puts 'need install watir-webdriver'
 
 # launch ie 
-ie = Watir::Browser.new :ie
+ie = Watir::Browser.new :ie # 'string' "string"
 ie.close
 
 # launch chrome
