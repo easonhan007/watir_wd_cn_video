@@ -1,0 +1,33 @@
+第一讲 安装开发环境
+
+安装ruby
+
+* windows：建议使用railsinstaller进行安装。http://railsinstaller.org/
+
+* linux: 建议使用rvm进行安装
+
+* mac os: 自带ruby187
+
+安装watir-webdriver
+
+* 使用淘宝源：http://ruby.taobao.org/
+
+	$ gem sources --remove http://rubygems.org/
+	$ gem sources -a http://ruby.taobao.org/
+	$ gem sources -l
+	*** CURRENT SOURCES ***
+
+	http://ruby.taobao.org
+	# 请确保只有 ruby.taobao.org
+
+* gem install watir-webdriver
+
+测试开发环境
+
+* 下载IE driver server 
+http://code.google.com/p/chromedriver/downloads/list
+
+* 下载chrome driver
+http://code.google.com/p/selenium/downloads/list
+
+将driver文件放到系统的PATH中
